@@ -106,9 +106,6 @@ bt.max.hfpclient.connections=1
 ro.vendor.fm.use_audio_session=true
 vendor.hw.fm.init=0
 
-# BPF
-ro.kernel.ebpf.supported=true
-
 # Camera
 camera.aux.packagelist=com.google.android.GoogleCamera,com.android.camera,org.codeaurora.snapcam
 persist.vendor.camera.HAL3.enabled=1
