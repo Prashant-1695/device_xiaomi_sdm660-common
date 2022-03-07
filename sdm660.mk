@@ -135,6 +135,10 @@ PRODUCT_PACKAGES += \
     libldacBT_dec \
     libsndmonitor
 
+# Call recording
+PRODUCT_PACKAGES += \
+    com.google.android.apps.dialer.call_recording_audio.features.xml
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5 \
