@@ -464,7 +464,12 @@ else
 endif
 
 # Preopt SystemUI
-PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Launcher3QuickStep \
+    Nexuslauncher \
+    lawnchair \
+    Settings \
+    SystemUI
 
 # Dex
 ifneq ($(TARGET_BUILD_VARIANT),eng)
